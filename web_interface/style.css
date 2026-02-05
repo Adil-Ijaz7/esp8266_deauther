@@ -312,6 +312,13 @@ nav a {
 	color: #ff0000;
 }
 
+.menu li.branding {
+	color: #ff0000;
+	font-weight: bold;
+	font-size: 1.1em;
+	padding-right: 1.5em;
+}
+
 /* Inputs and buttons */
 .upload-script, .button, button, input[type="submit"], input[type="reset"], input[type="button"] {
 	display: inline-block;
@@ -358,7 +365,7 @@ input[type="email"], input[type="number"], input[type="search"], input[type="tex
 	box-shadow: none;
 	box-sizing: border-box;
 	color: #e0e0e0;
-	border: 1px solid #2a2a2a;
+	border: 1px solid #444444;
 	width: 5em;
 }
 
