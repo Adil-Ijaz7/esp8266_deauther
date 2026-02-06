@@ -2,8 +2,8 @@
 
 /* Global */
 body {
-	background: #36393e;
-	color: #bfbfbf;
+	background: #0a0a0a;
+	color: #e0e0e0;
 	font-family: sans-serif;
 	margin: 0;
 }
@@ -11,22 +11,22 @@ body {
 h1 {
 	font-size: 1.7rem;
     margin-top: 1rem;
-    background: #2f3136;
-    color: #bfbfbb;
+    background: #1a1a1a;
+    color: #e0e0e0;
     padding: 0.2em 1em;
     border-radius: 3px;
-	border-left: solid #20c20e 5px;
+	border-left: solid #ff0000 5px;
     font-weight: 100;
 }
 
 h2 {
 	font-size: 1.1rem;
     margin-top: 1rem;
-    background: #2f3136;
-    color: #bfbfbb;
+    background: #1a1a1a;
+    color: #e0e0e0;
     padding: 0.4em 1.8em;
     border-radius: 3px;
-	border-left: solid #20c20e 5px;
+	border-left: solid #ff0000 5px;
     font-weight: 100;
 }
 
@@ -68,7 +68,7 @@ p{
 	padding: 0 !important;
 }
 .selected{
-	background: #4974a9;
+	background: #cc0000;
 }
 .status{
 	width: 120px;
@@ -140,7 +140,7 @@ footer {
   left: 0;
   height: 28px;
   width: 28px;
-  background-color: #2F3136;
+  background-color: #1a1a1a;
   border-radius: 4px;
 }
 
@@ -187,16 +187,16 @@ footer {
 
 
 hr {
-	background: #3e4146;
+	background: #2a2a2a;
 }
 
 a {
-	color: #5281bb;
+	color: #ff3333;
     text-decoration: none;
 }
 
 a:hover {
-	color: #95b8e4;
+	color: #ff6666;
 }
 
 li{
@@ -205,7 +205,7 @@ li{
 
 /* Meter */
 .meter_background{
-	background: #42464D;
+	background: #1a1a1a;
 	width: 100%;
 	word-break: normal;
 	min-width: 100px;
@@ -248,7 +248,7 @@ th{
 th, td {
     padding: 10px 6px;
     text-align: left;
-    border-bottom: 1px solid #5d5d5d;
+    border-bottom: 1px solid #2a2a2a;
 }
 
 @media screen and (max-width: 820px) {
@@ -279,7 +279,7 @@ th, td {
 
 nav {
 	display: block;
-	background: #1d2236;
+	background: #000000;
 	font-weight: bold;
 	padding: 0 10px;
 }
@@ -308,6 +308,17 @@ nav a {
 	float: right;
 }
 
+.menu li.active a {
+	color: #ff0000;
+}
+
+.menu li.branding {
+	color: #ff0000;
+	font-weight: bold;
+	font-size: 1.1em;
+	padding-right: 1.5em;
+}
+
 /* Inputs and buttons */
 .upload-script, .button, button, input[type="submit"], input[type="reset"], input[type="button"] {
 	display: inline-block;
@@ -322,7 +333,7 @@ nav a {
 	text-transform: uppercase;
 	text-decoration: none;
 	white-space: nowrap;
-	background: #2f3136;
+	background: #cc0000;
 	border-radius: 4px;
 	border: none;
 	cursor: pointer;
@@ -330,7 +341,7 @@ nav a {
 }
 
 button:hover, input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover {
-	background: #42444a;
+	background: #ff0000;
 }
 button:active, input[type="submit"]:active, input[type="reset"]:active, input[type="button"]:active {
 	transform: scale(.93);
@@ -349,12 +360,12 @@ button::-moz-focus-inner {
 input[type="email"], input[type="number"], input[type="search"], input[type="text"], input[type="tel"], input[type="url"], input[type="password"], textarea, select {
 	height: 38px;
 	padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
-	background-color: #2f3136;
+	background-color: #1a1a1a;
 	border-radius: 4px;
 	box-shadow: none;
 	box-sizing: border-box;
-	color: #d4d4d4;
-	border: none;
+	color: #e0e0e0;
+	border: 1px solid #444444;
 	width: 5em;
 }
 
